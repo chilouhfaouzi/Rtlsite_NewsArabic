@@ -1,0 +1,723 @@
+/* --------------------------
+:: Template Name: Wayfaring - Travel Landing Page 
+:: Description:Travel is a One Page Travel  Landing Template. It's very clean, creative & beautiful. It's super responsive & ultra light.
+:: Created: 10/10/2020  MM/DD/YYYY
+-------------------------- */
+
+/*  --------------------------
+  
+ -------------------------- */
+
+/* ----------------------
+
+[Table of contents]
+01.Base CSS
+02.Header CSS
+03.benefits CSS
+04.Motive CSS
+04.Description CSS
+06-Footer CSS
+
+ --------------------------*/
+
+/*  --------------------------
+
+ No Vidoe and No Motivation sections in small screen (max-width:992px)
+
+ -------------------------- */
+
+/*  ----------- 01- Start Base CSS  ----------- */
+body {
+  direction: ltr;
+  font-family: "El Messiri", sans-serif;
+  background-color: #fafafa;
+}
+
+:root {
+  --main-green-color: #465d50;
+  --main-orange-color: rgba(255, 111, 72, 1);
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li {
+  padding: 0;
+  margin: 0;
+}
+.btn {
+  border-radius: 0;
+}
+
+body {
+  font-family: "Arvo", serif;
+}
+.fix-col-margin {
+  margin: 0 -15px;
+}
+section {
+  padding: 50px 0;
+}
+
+@media (max-width: 992px) {
+  section {
+    padding: 40px 0;
+  }
+}
+
+p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+.table {
+  height: 100%;
+  display: table;
+}
+.table-row {
+  display: table-row;
+}
+
+/*  ----------- 01 -End Base CSS   -----------*/
+
+/*Start Upper bar */
+
+header {
+  background-color: #ebebeb;
+  direction: rtl;
+  height: 45px;
+}
+header .container {
+  padding-right: 35px;
+}
+header span {
+  margin: 0 5px;
+}
+.currency {
+  font-weight: 600;
+  color: #555;
+}
+
+.price {
+  font-size: 16px;
+}
+.change {
+  font-weight: 600;
+}
+.positive {
+  color: #7bb71f;
+}
+.negative {
+  color: red;
+}
+.h-disp {
+  line-height: 45px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #999999;
+}
+
+.header-market {
+  height: 45px;
+  line-height: 45px;
+  width: 180px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #777;
+}
+.nbs-flexisel-inner {
+  height: 45px;
+  float: right !important;
+  width: calc(100% - 180px) !important;
+  background-color: #eee;
+  border: none !important;
+  border-radius: 0 !important;
+}
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+  background: none !important;
+  color: #888;
+}
+
+.nbs-flexisel-nav-left::before,
+.nbs-flexisel-nav-right::before {
+  font-size: 22px;
+}
+
+.nbs-flexisel-nav-right {
+  left: 5px;
+  right: auto;
+}
+.nbs-flexisel-nav-left {
+  right: 5px;
+  left: auto;
+}
+.nbs-flexisel-ul {
+  max-width: 100%;
+  width: 100%;
+}
+
+.nbs-flexisel-ul {
+  left: 0.88889px;
+  background-color: #f0f0f0;
+}
+
+/* ---- Start Navbar  ---- */
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 0 !important;
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.navbar-brand img {
+  width: 24px;
+  position: relative;
+  top: -4px;
+}
+.show {
+  background-color: #1680d8;
+}
+.show .nav-link {
+  color: #fff !important;
+}
+.nav-item {
+  width: 100px;
+  padding-bottom: 15px;
+  text-align: left;
+}
+.dropdown-menu {
+  width: 100%;
+  background-color: #1680d8;
+  margin: 0 !important;
+  border-top: none;
+}
+.nav-link {
+  font-size: 20px;
+  font-weight: 600;
+  color: #636363 !important;
+}
+.navbar-nav {
+  margin-right: 120px !important;
+}
+
+.dropdown-menu {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.dropdown-menu .container {
+  display: block !important;
+}
+
+.dropdown-item {
+  display: inline-block;
+  width: 80px !important;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 22px;
+  text-align: center;
+}
+.dropdown-item:hover,
+.dropdown-menu .active {
+  background-color: #63aae4;
+  color: #fff;
+}
+
+.dropdown-toggle::after {
+  border: none;
+}
+/* 02 _ ENd nav bar */
+
+.search-form {
+  display: none;
+}
+#search {
+  background-color: #fafafa;
+  padding: 4px 8px;
+}
+.search-form {
+  margin-right: 5px;
+}
+.search-form input {
+  padding: 0 10px;
+}
+
+/*  -----  02 _ End Navbar ----- */
+
+/*  -----  03 _  latest News ----- */
+.lastnews {
+  padding: 100px 0 0;
+}
+.lastnews .row > div {
+  overflow: hidden;
+}
+.akhbar_ajila {
+  height: 100%;
+}
+.akhbar_ajila .title-akhbar {
+  background-color: #d74315;
+  color: #fff;
+  padding: 5px 22px;
+}
+.news-sidebar {
+  background-color: #fff;
+}
+.akhbar_ajila .news-box {
+  padding: 5px 20px;
+}
+.akhbar_ajila .news-box span {
+  color: #888;
+}
+.akhbar_ajila .news-box span i {
+  margin-left: 10px;
+}
+.akhbar_ajila .news-box h5 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-top: 6px;
+  color: #666;
+}
+.news-active {
+  background-color: #fafafa !important;
+}
+.news-active h5 {
+  color: #d74315 !important;
+}
+.news-main .row > div {
+  padding: 0 !important;
+}
+.a3mal {
+  background: url(../images/business.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(to top, #000, #999);
+  opacity: 0.4;
+}
+.info {
+  position: relative;
+  height: 100%;
+  z-index: 4;
+}
+.info .content {
+  position: absolute;
+  color: #fff;
+}
+.a3mal .content {
+  top: 70%;
+  padding: 10px 30px;
+}
+.info .content-title {
+  font-weight: 600;
+  margin: 18px 0;
+}
+.a3mal .content-title {
+  font-size: 28px;
+}
+.title {
+  position: relative;
+  top: 30px;
+  right: 30px;
+  opacity: 0.9;
+  color: #fff;
+  padding: 5px 10px;
+}
+.title-orange {
+  background-color: #d74315;
+}
+.title-green {
+  background-color: #41a029;
+}
+.title-blue {
+  background-color: #2e79cf;
+}
+.tech {
+  background: url(../images/tech.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 250px;
+}
+.tech .title {
+  background-color: #68ab1d;
+}
+.record {
+  background: url(../images/rapport.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 250px;
+}
+.tech .content,
+.record .content {
+  top: 50%;
+  padding: 10px 15px;
+}
+.tech .title,
+.record .title {
+  top: 20px;
+  right: 20px;
+}
+.tech .content-title,
+.record .content-title {
+  margin: 8px 0;
+  font-size: 17px;
+}
+
+.specialNewsTitle {
+  background-color: #ebebeb;
+  height: 50px;
+}
+.specialNewsTitle .bar {
+  width: 20%;
+  height: 100%;
+  background-color: #d7d7d7;
+}
+.specialNewsTitle .cont {
+  font-size: 25px;
+  font-weight: 600;
+  position: relative;
+  top: -83%;
+  right: 16%;
+}
+/*  -----  03 _ End Lates News ----- */
+
+/*  ----- 03_ Start world news   ----- */
+.short-news {
+  margin: 20px 0;
+  background-color: #fff;
+}
+
+.thumbnail-container {
+  position: relative;
+  background: url(../images/Italy.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  height: 265px;
+}
+.short-news .news-info span {
+  margin-left: 20px;
+  color: #666;
+}
+
+.short-news .news-info i {
+  margin: 0 5px;
+}
+.short-news .content-container {
+  padding: 15px 22px;
+}
+
+.short-news .short-news-title {
+  border-right: 3px solid #167fda;
+  padding-right: 12px;
+  color: #555;
+  font-weight: 600;
+  font-size: 24px;
+}
+.short-news .short-news-para {
+  font-size: 18px;
+  color: #888;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+.temperature {
+  background-color: #fff;
+  color: #888;
+  padding: 15px 10px;
+  margin: 20px 0;
+}
+.temperature .status {
+  overflow: hidden;
+}
+
+.temperature .status .title-temp {
+  font-size: 15px;
+  font-weight: 600;
+}
+.hot {
+  position: relative;
+  font-size: 46px;
+}
+.hot span {
+  font-size: 18px;
+  position: absolute;
+  top: 5px;
+  margin-right: 4px;
+}
+
+.temperature .country-temp {
+  font-size: 21px;
+  font-weight: 600;
+}
+.stats {
+  margin: 25px 0;
+}
+.stats img {
+  max-width: 100%;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.temp-days {
+  margin: 25px 0 0;
+}
+.temp-days .temp-day {
+  overflow: hidden;
+}
+.temp-days .temp-day img {
+  max-width: 90%;
+}
+.temp-days .temp-day p {
+  font-size: 13px;
+}
+
+.radio .bar {
+  background-color: #d74315;
+}
+.radio .listen {
+  margin: 30px 0 45px;
+}
+.radio .play {
+  background-color: #167fda;
+  color: #fff;
+}
+.radio .play i {
+  font-size: 40px;
+}
+.radio .title-play {
+  margin: 0 -15px;
+}
+.radio .title-play,
+.radio .play {
+  padding: 20px 0;
+  border-radius: 4px;
+}
+.volume-title {
+  display: inline-block;
+  writing-mode: sideways-rl;
+  color: #888;
+}
+
+.volume {
+  display: inline-block;
+}
+.volume span {
+  display: block;
+  width: 20px;
+  margin: 4px 0;
+}
+.volume .active {
+  border: 1px solid #167fda;
+}
+.volume .none-active {
+  border: 1px solid #ddd;
+}
+
+/*  ----- 03_ Start world news    ----- */
+
+/*  ----- 04_ Start malna tv   ----- */
+.malna-tv {
+}
+.malna-tv .specialNewsTitle {
+  margin-bottom: 20px;
+}
+.malna-tv .live {
+  position: relative;
+}
+.malna-tv .live .overlay {
+  height: 98%;
+  background: none;
+  background-color: #000;
+}
+.malna-tv .live video {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+.vidoe-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  height: 570px;
+}
+.vidoe-content .video-title {
+  font-size: 24px;
+  padding: 15px 20px;
+}
+#btnvidoe:focus {
+  outline: none !important;
+}
+.malna-tv .live button {
+  display: block;
+  margin: 17% auto;
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+.malna-tv .live button i {
+  font-size: 70px;
+}
+.fa-pause-circle {
+  display: none;
+}
+.img-gallery {
+  overflow: hidden;
+}
+.img-gallery img {
+  height: 180px;
+  max-width: 100%;
+  padding: 30px 0 0;
+}
+.malna-tv .akhbar_ajila .news-box {
+  padding: 12px 20px;
+  border-top: 1px solid #eee;
+  color: #777;
+}
+/*  ----- 04_ End malna tv   ----- */
+/*  ----- 05_ Start records  ----- */
+.records {
+}
+.records .specialNewsTitle .bar {
+  width: 8%;
+}
+.records .specialNewsTitle .cont {
+  right: 6%;
+}
+/*  ----- 05_ End records  ----- */
+/*  ----- 06_ Start different ----- */
+.different {
+}
+.different .info .content {
+  margin: 32% 15px;
+}
+.different .info .content .content-title {
+  font-size: 22px;
+}
+.list-content {
+  background-color: #fff;
+}
+.list-content li {
+  border-bottom: 0.5px solid #eee;
+  padding: 12px 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #777;
+}
+.list-content li:last-child {
+  border-bottom: none !important;
+}
+/*  ----- 06_ End differents  ----- */
+/*  ----- 07_ Start footer  ----- */
+.footer {
+  background-color: #001e38;
+  color: #fff;
+  padding: 80px 0;
+}
+.fot-title span {
+  border-bottom: 2px solid #167fda;
+  font-size: 22px;
+  font-weight: 600;
+  color: #dde4f5;
+}
+.fot-para {
+  width: 75%;
+  line-height: 1.7;
+}
+
+/*  ----- 07_ End footer  ----- */
+/*  ----- 08_ Start copyright  ----- */
+.copyright {
+}
+.copyright .row > div:not(:first-child) {
+  padding: 16px 0;
+}
+
+.copyright ul {
+}
+.copyright ul li {
+  display: inline-block;
+  border-left: 0.5px solid #ddd;
+  padding: 0 20px;
+  font-weight: 600;
+}
+.copyright ul li:last-of-type {
+  border-left: none !important;
+}
+.copyright .social i {
+  background-color: #fff;
+  color: #777;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.copyright .social i:hover {
+  scale: 1.4;
+}
+.copyright .social .fa-facebook-f:hover {
+  color: #167fda;
+}
+.copyright .social .fa-youtube:hover {
+  color: rgb(241, 50, 50);
+}
+.copy {
+  color: #777;
+  font-size: 20px;
+}
+.copy .row > div {
+  padding: 16px 15px !important;
+}
+/*  ----- 08_ End copyright  ----- */
+
+/*Startb Ads */
+.main-ads {
+  margin: 70px auto;
+  width: 90%;
+}
+.worldnews .main-ads {
+  margin: 30px auto !important;
+}
+.different .side-ads {
+  padding-top: 0 !important;
+}
+.different .main-ads {
+  margin: 50px auto !important;
+}
+.main-img-ads {
+  width: 100%;
+  height: 90px;
+  max-width: 100%;
+}
+.side-ads {
+  padding: 15px 0 30px;
+}
+
+.side-img-ads {
+  width: 95%;
+  height: 315px;
+}
+.side-img-ads,
+.main-img-ads {
+  background-color: #bbb;
+  text-align: center; /*Just text */
+  color: #fff; /*Just text */
+}
+/*End Ads */
